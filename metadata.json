@@ -1,0 +1,6 @@
+{
+  "name": "Cambio y Finanzas",
+  "description": "Una aplicación inteligente para la conversión de divisas y el seguimiento de finanzas personales, potenciada con predicciones y análisis financiero por IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

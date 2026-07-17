@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-bento-bg: #05070A;
+  --color-bento-card: #0F1218;
+  --color-bento-border: rgba(255, 255, 255, 0.08);
+  --color-bento-border-hover: rgba(255, 255, 255, 0.20);
+  --color-bento-accent-green: #00FF94;
+  --color-bento-accent-blue: #38BDF8;
+}
+
+body {
+  background-color: #05070A;
+  font-family: var(--font-sans);
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom scrollbars for a clean tech-dashboard look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #05070A;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
